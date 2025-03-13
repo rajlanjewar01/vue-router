@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Concert One", sans-serif;
+}
+.img-fluid {
+	width: 100%;
+	height: auto;
+}
+.terminator {
+	width: 100%;
+	background-color: rgb(254, 172, 98);
+	padding: 30px 60px;
+	position: relative;
+	overflow: hidden;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+	min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+.terminator nav {
+	background-color: rgb(176, 76, 146);
+	padding: 20px 10px;
+	-webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+border-radius: 16px;
+border: 2px solid #444;
+}
+.terminator nav a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Caveat", cursive;
+	margin-right: 18px;
+}
+.terminator .container {
+	background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+	padding: 40px 20px;
+	border: 2px solid #222;
+	border-radius: 18px;
+} 
+
+.container .content {
+	margin-top: 20px;
+	padding: 10px 60px;
+}
+
+/* card */
+.terminator-card {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+}
+.terminator-card .card-container {
+	padding: 20px;
+	border: 2px solid #111;
+	background-color: #fff;
+	border-radius: 18px;
+}
+.card-container .avatar img{
+	border-radius: 8px;
+}
+.card-container .description {
+	text-align: center;
+}
+.card-container .description h1{
+	padding-top: 8px;
+	font-size: 26px;
+}
+.card-container .description p{
+	padding-top: 10px;
+	font-size: 16px;
+}
