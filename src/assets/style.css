@@ -12,6 +12,17 @@ body {
 	width: 100%;
 	height: auto;
 }
+.monologue h1{
+	font-size: 44px;
+	text-align: center;
+	color: #fb4d4d;
+}
+.monologue p{
+	font-size: 24px;
+	text-align: justify;
+	color: #fff;
+}
+
 .terminator {
 	width: 100%;
 	background-color: rgb(254, 172, 98);

@@ -7,8 +7,7 @@
 		<div class="container">
 			<nav class="navigation">
 				<RouterLink to="/">Home</RouterLink>
-				<RouterLink to="/about">About</RouterLink>
-				<RouterLink to="/contact">Contact</RouterLink>
+				<RouterLink to="/terminatorDB">Terminator Database</RouterLink>
 				<RouterLink to="/page/123">Dynamic Page</RouterLink>
 			</nav>
 			<div class="content">
