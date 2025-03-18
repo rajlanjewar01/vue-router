@@ -3,19 +3,29 @@
 		<div class="card-container">
 			<div class="avatar">
 				<img 
-					src="/assets/t-x.jpg" 
+					:src="`/assets/${terminator}.jpg`"
 					alt="t-x"
 					class="img-fluid"
 				>
 			</div>
 			<div class="description">
-				<h1>T-X (Terminatrix)</h1>
+				<h1>{{ terminator }}</h1>
 			</div>
 		</div>
 	</div>
 </template>
 <script>
 export default {
- name: 'TerminatorTx'
+ name: 'TerminatorTx',
+ data() {
+		return {
+			terminator: this.$route.params.terminator
+		};
+	},
+	watch: {
+		'$route.params.terminator'(newTerminator) {
+			this.terminator = newTerminator;
+		}
+	}
 }
 </script>

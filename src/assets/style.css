@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+ 
 *{
 	padding: 0;
 	margin: 0;
@@ -16,13 +18,17 @@ body {
 	font-size: 44px;
 	text-align: center;
 	color: #fb4d4d;
+	font-family: "Orbitron", sans-serif;
+	margin-bottom: 20px;
 }
 .monologue p{
-	font-size: 24px;
-	text-align: justify;
+	font-size: 20px;
+	text-align: center;
 	color: #fff;
+	font-family: "Orbitron", sans-serif;
+	text-transform: uppercase;
+	line-height: 30px;
 }
-
 .terminator {
 	width: 100%;
 	background-color: rgb(254, 172, 98);
@@ -59,10 +65,10 @@ border: 2px solid #444;
 	margin-right: 18px;
 }
 .terminator .container {
-	background: rgba( 255, 255, 255, 0.1 );
+	background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 1px );
--webkit-backdrop-filter: blur( 1px );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 	padding: 40px 20px;
